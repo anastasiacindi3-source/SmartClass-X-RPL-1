@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard - SmartClass</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">
+    <h2>SmartClass</h2>
+    <div class="menu">
+        <a href="dashboard.html">Beranda</a>
+        <a href="data-siswa.html">Data Siswa</a>
+        <a href="input-nilai.html">Input Nilai</a>
+        <a href="rekap.html">Rekap Nilai</a>
+        <button onclick="logout()">Logout</button>
+    </div>
+</div>
+
+<div class="dashboard-container">
+    <div class="welcome-card">
+        <h1>Selamat Datang di SmartClass 💙</h1>
+        <p>Sistem Rekap Nilai Digital yang aman dan mudah digunakan.</p>
+        <img src="https://cdn-icons-png.flaticon.com/512/1995/1995574.png" class="teacher-dashboard">
+    </div>
+
+    <div class="card-container">
+        <div class="card">
+            <h3>Data Siswa</h3>
+            <p>Kelola daftar siswa dengan mudah.</p>
+            <a href="data-siswa.html">Masuk</a>
+        </div>
+
+        <div class="card">
+            <h3>Input Nilai</h3>
+            <p>Masukkan nilai tugas, ulangan, UTS & UAS.</p>
+            <a href="input-nilai.html">Masuk</a>
+        </div>
+
+        <div class="card">
+            <h3>Rekap Nilai</h3>
+            <p>Lihat rata-rata & ranking otomatis.</p>
+            <a href="rekap.html">Masuk</a>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

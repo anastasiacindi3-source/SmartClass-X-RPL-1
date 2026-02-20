@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Siswa - SmartClass</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">
+    <h2>SmartClass</h2>
+    <div class="menu">
+        <a href="dashboard.html">Beranda</a>
+        <a href="data-siswa.html">Data Siswa</a>
+        <a href="input-nilai.html">Input Nilai</a>
+        <a href="rekap.html">Rekap Nilai</a>
+        <button onclick="logout()">Logout</button>
+    </div>
+</div>
+
+<div class="container">
+    <h1>Data Siswa</h1>
+
+    <div class="form-box">
+        <input type="text" id="namaSiswa" placeholder="Masukkan Nama Siswa">
+        <button onclick="tambahSiswa()">Tambah</button>
+        <p id="errorSiswa" class="error"></p>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama Siswa</th>
+                <th>Aksi</th>
+            </tr>
+        </thead>
+        <tbody id="tabelSiswa"></tbody>
+    </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

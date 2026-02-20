@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Input Nilai - SmartClass</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">
+    <h2>SmartClass</h2>
+    <div class="menu">
+        <a href="dashboard.html">Beranda</a>
+        <a href="data-siswa.html">Data Siswa</a>
+        <a href="input-nilai.html">Input Nilai</a>
+        <a href="rekap.html">Rekap Nilai</a>
+        <button onclick="logout()">Logout</button>
+    </div>
+</div>
+
+<div class="container">
+    <h1>Input Nilai Siswa</h1>
+
+    <div class="form-box">
+        <select id="pilihSiswa"></select><br><br>
+
+        <input type="number" id="tugas" placeholder="Nilai Tugas">
+        <input type="number" id="ulangan" placeholder="Nilai Ulangan">
+        <input type="number" id="uts" placeholder="Nilai UTS">
+        <input type="number" id="uas" placeholder="Nilai UAS">
+        <br><br>
+
+        <button onclick="simpanNilai()">Simpan Nilai</button>
+        <p id="errorNilai" class="error"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

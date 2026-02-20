@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Rekap Nilai - SmartClass</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">
+    <h2>SmartClass</h2>
+    <div class="menu">
+        <a href="dashboard.html">Beranda</a>
+        <a href="data-siswa.html">Data Siswa</a>
+        <a href="input-nilai.html">Input Nilai</a>
+        <a href="rekap.html">Rekap Nilai</a>
+        <button onclick="logout()">Logout</button>
+    </div>
+</div>
+
+<div class="container">
+    <h1>Rekap Nilai & Ranking</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Ranking</th>
+                <th>Nama</th>
+                <th>Rata-rata</th>
+                <th>Predikat</th>
+            </tr>
+        </thead>
+        <tbody id="tabelRekap"></tbody>
+    </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

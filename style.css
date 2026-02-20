@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* LOGIN PAGE */
+.login-body {
+    background: linear-gradient(135deg, #a8d8ff, #d6f0ff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    display: flex;
+    width: 800px;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.login-left {
+    background: #bde7ff;
+    padding: 40px;
+    width: 50%;
+    text-align: center;
+}
+
+.login-left h1 {
+    margin-bottom: 10px;
+    color: #0066aa;
+}
+
+.teacher-img {
+    width: 150px;
+    margin-top: 20px;
+}
+
+.login-right {
+    padding: 40px;
+    width: 50%;
+}
+
+.login-right h2 {
+    color: #0066aa;
+}
+
+.login-right input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.login-right button {
+    width: 100%;
+    padding: 10px;
+    background: #4db8ff;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-right button:hover {
+    background: #3399ff;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+/* NAVBAR */
+.navbar {
+    background: #4db8ff;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 500;
+}
+
+.navbar button {
+    background: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.dashboard-container {
+    padding: 40px;
+    background: #f0faff;
+    min-height: 100vh;
+}
+
+.welcome-card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.teacher-dashboard {
+    width: 120px;
+    margin-top: 15px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    width: 30%;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #4db8ff;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.container {
+    padding: 40px;
+    background: #f0faff;
+    min-height: 100vh;
+}
+
+.form-box {
+    margin-bottom: 20px;
+}
+
+.form-box input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.form-box button {
+    padding: 10px 15px;
+    background: #4db8ff;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    background: white;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background: #bde7ff;
+}
+
+table button {
+    padding: 5px 10px;
+    border: none;
+    background: #ff6666;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
